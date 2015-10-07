@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_custom_maps_data_item"
+        android:drawableLeft="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:padding="8dp"
+        android:text="@string/buttonDetails"
+        android:textStyle="bold" />
+</RelativeLayout>

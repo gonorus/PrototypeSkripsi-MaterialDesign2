@@ -1,0 +1,114 @@
+<html>
+<body>
+<h1>PANDUAN PENGGUNAAN</h1>
+<center>
+    <p>
+        Aplikasi ini dibuat untuk memenuhi syarat kelulusan dalam mendapatkan gelar Sarjana di
+        Fakultas Teknologi Informasi Universitas Kristen Satya Wacana.
+    </p>
+
+    <p>
+        Aplikasi ini dibuat untuk membantu dalam proses pemetaan daerah kekeringan wilayah Kabupaten
+        Boyolali. Dalam melakukan proses pemetaan aplikasi membutuhkan data curah hujan pada setiap
+        kecamatan di wilayah Kabupaten Boyolali yang tercatat secara bulanan yang disimpan dengan
+        format file berekstensi ".csv".
+    </p>
+
+    <img style="width:450px;height:150px;" src="img/capture1.jpg"/>
+
+    <p>
+        Struktur file dibuat dengan bentuk seperti gambar diatas. Penggunaan data pada kolom nama
+        Kabupaten
+        digunakan untuk menjelaskan bahwa data yang digunakan merupakan data pada wilayah Kabupaten
+        Boyolali. Penggunaan pada kolom nama Kecamatan digunakan untuk menjelaskan bahwa data pada
+        baris
+        tersebut merupakan data curah hujan bulanan pada kecamatan tersebut. Penggunaan data pada
+        kolom LAT dan LON menjelaskan bahwa data curah hujan bulanan pada kecamatan tersebut di
+        pantau pada koordinat tertentu. Penggunaan data pada kolom selanjutnya merupakan data curah
+        hujan bulanan yang sudah tercatat dimulai dari bulan Januari dengan panjang minimal data
+        yang ada yaitu sebanyak 2 periode atau data curah hujan bulanan yang sudah tercatat selama 2
+        tahun.
+    </p>
+
+    <p>
+        Ikuti langkah-langkah berikut ini untuk memulai proses pemetaan :
+    </p>
+    <ul>
+        <li>
+            <p>
+                Ketika aplikasi pertama kali terbuka akan mencoba melakukan koneksi dengan server,
+                untuk itu pastikan perangkat anda sudah terkoneksi dengan internet baik melalui
+                jaringan ponsel atau melalui jaringan wifi.
+            </p>
+        </li>
+        <li>
+            <p>
+                Tekan tombol "START" pada bagian bawah untuk memulai proses pemetaan, dan tekan
+                tombol "ABOUT" untuk mendapatkan informasi lebih lanjut mengenai aplikasi pemetaan
+                ini.
+            </p>
+            <img style="width:450px;height:150px;" src="img/capture2.jpg"/>
+        </li>
+        <li>
+            <p>
+                Terdapat 3 pilihan menu, yaitu "SERVER DATA", "DEVICE DATA, dan "NEW DATA". Pilihan
+                "SERVER DATA" merupakan pilihan dimana pengguna dapat mendownload data peta yang
+                tersimpan pada server, sedangkan pilihan "DEVICE DATA" merupakan pilihan dimana
+                pengguna dapat membuka kembali data peta yang sudah tersimpan didalam perangkat, dan
+                pilihan "NEW DATA" merupakan pilihan dimana pengguna dapat memasukkan data baru
+                sebagai sumber data untuk membuat data peta yang baru.
+            </p>
+            <img style="width:450px;" src="img/capture3.jpg"/>
+        </li>
+        <li>
+            <p>
+                Setelah membuat pilihan dan proses pemetaan telah berhasil maka akan terbuka jendela
+                baru yang membuat hasil pemetaan. Terdapat 2 peta yang muncul yaitu "PETA KEKERINGAN
+                AKTUAL" dan "PETA KEKERINGAN PREDIKSI". "PETA KEKERINGAN AKTUAL" merupakan peta yang
+                menggambarkan tingkat kekeringan suatu daerah berdasarkan data curah hujan terakhir
+                dengan kategori kekeringan tertentu berdasarkan nilai indeks kekeringan SPI <i>(Standarized
+                Precipitation Index)</i>. "PETA KEKERINGAN PREDIKSI" merupakan peta yang
+                menggambarkan tingkat kekeringan suatu daerah berdasarkan hasil prediksi sistem
+                dengan kategori kekeringan tertentu berdasrakan nilai indeks kekeringan SPI <i>(Standarized
+                Precipitation Index)</i>.
+            </p>
+            <img style="width:450px;" src="img/capture4.jpg"/>
+        </li>
+        <li>
+            <p>
+                Peta kekeringan wilayah Kabupaten Boyolali digambarkan berdasarkan kode warna
+                tertentu dimana masing-masing warna merupakan hasil pengelompokan dari nilai indeks
+                kekeringan SPI <i>(Standarized Precipitation Index)</i>. Untuk mengetahui arti dari
+                masing-masing warna tersebut pengguna dapat menekan tombol <img
+                    style="width:24px;height:24px;" src="img/info.png"/> disebelah kanan bawah
+                layar yang dapat dilihat pada gambar dibawah dengan lingkaran warna merah.
+            </p>
+            <img style="width:450px;" src="img/capture5.jpg"/>
+
+            <p>
+                Setelah tombol ditekan akan menampilkan informasi mengenai pengelompokan warna
+                berdasarkan nilai indeks SPI <i>(Standarized Precipitation Index)</i>.
+            </p>
+            <img style="width:450px;" src="img/capture6.jpg"/>
+        </li>
+        <li>
+            <p>
+                Untuk menampilkan informasi lebih lengkap mengenai kondisi kekeringan pada suatu
+                daerah pengguna dapat meng-klik label nama suatu wilayah yang akan memunculkan
+                tombol untuk menampilkan informasi lengkap tentang daerah tersebut seperti
+                ditunjukkan pada gambar dibawah ini.
+            </p>
+            <img style="width:450px;" src="img/capture7.jpg"/>
+
+            <p>
+                Informasi yang ditampilkan meliputi "Nilai Hujan Aktual" dan "Nilai Hujan Prediksi",
+                "Nilai SPI Aktual" dan "Nilai SPI Prediksi", "Kategori SPI Aktual" dan "Kategori SPI
+                Prediksi", serta "Mean Average Error" hasil prediksi nilai curah hujan untuk
+                mengukur ketepatan nilai hasil prediksi (semakin mendekati 0 semakin baik).
+            </p>
+            <img style="width:450px;" src="img/capture8.jpg"/>
+        </li>
+    </ul>
+</center>
+</body>
+</html>

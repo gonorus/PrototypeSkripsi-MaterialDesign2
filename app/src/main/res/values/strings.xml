@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KEKERINGAN APP</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps_chooser">MapsChooser</string>
+    <string name="title_activity_maps">PETA KEKERINGAN KAB. BOYOLALI</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="search_title">search</string>
+    <string name="search_hint">search</string>
+    <string name="title_activity_testr">testr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_search">search</string>
+    <string name="buttonDetails">Show Details</string>
+    <string name="judulPetaAktual">PETA KEKERINGAN AKTUAL</string>
+    <string name="judulPetaPrediksi">PETA KEKERINGAN PREDIKSI</string>
+
+</resources>
